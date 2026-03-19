@@ -1,1 +1,1 @@
-# 2026-chourrout-linc-dmri-xray-pipeline
+# LINC diffusion MRI – X-ray pipeline 🧠🔗🩻
