@@ -1,4 +1,7 @@
 # LINC diffusion MRI – X-ray pipeline 🧠🔗🩻
+
+Supplementary material for the LINC diffusion MRI – X-ray paper.
+
 ## Scripts
 
 This work has required the use of a few Python tools:
