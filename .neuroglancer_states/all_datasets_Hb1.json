@@ -15,9 +15,9 @@
     ]
   },
   "position": [
-    5158.00634765625,
-    6205.91943359375,
-    8905.7275390625
+    6785.9453125,
+    5472.90234375,
+    10411.7197265625
   ],
   "crossSectionOrientation": [
     -1.4090297951804843e-18,
@@ -25,7 +25,7 @@
     0,
     1
   ],
-  "crossSectionScale": 6.049647464412939,
+  "crossSectionScale": 66.68633104092508,
   "projectionOrientation": [
     0.497188001871109,
     0.6007900238037109,
@@ -36,7 +36,7 @@
   "layers": [
     {
       "type": "image",
-      "source": "gs://ucl-hoahub-u5y7efds9tyrripr/Harvard_I74/brain-left_hemisphere/20.07um_overview_bm18.ome.zarr/|zarr3:",
+      "source": "gs://ucl-hip-ct-35a68e99feaae8932b1d44da0358940b/I74/brain-left_hemisphere/20.07um_overview_bm18.ome.zarr/|zarr3:",
       "tab": "source",
       "annotationColor": "#000000",
       "opacity": 1,
@@ -49,13 +49,12 @@
         }
       },
       "crossSectionRenderScale": 0.125,
-      "name": "I74_brain_left_hemisphere_overview_20.07um_bm18",
-      "visible": false
+      "name": "Hb1_brain_left_hemisphere_overview_20.07um_bm18"
     },
     {
       "type": "image",
       "source": {
-        "url": "gs://ucl-hoahub-u5y7efds9tyrripr/Harvard_I74/brain-left_hemisphere/4.257um_VOI-1_bm18.ome.zarr/|zarr3:",
+        "url": "gs://ucl-hip-ct-35a68e99feaae8932b1d44da0358940b/I74/brain-left_hemisphere/4.257um_VOI-1_bm18.ome.zarr/|zarr3:",
         "transform": {
           "matrix": [
             [
@@ -105,13 +104,12 @@
       },
       "volumeRendering": "max",
       "volumeRenderingDepthSamples": 256,
-      "name": "I74_brain_left_hemisphere_VOI-1_4.257um_bm18",
-      "visible": false
+      "name": "Hb1_brain_left_hemisphere_VOI-1_4.257um_bm18"
     },
     {
       "type": "image",
       "source": {
-        "url": "gs://ucl-hoahub-u5y7efds9tyrripr/Harvard_I74/brain-left_hemisphere/2.201um_VOI-2_bm18.ome.zarr/|zarr3:",
+        "url": "gs://ucl-hip-ct-35a68e99feaae8932b1d44da0358940b/I74/brain-left_hemisphere/4.257um_VOI-1_bm18.ome.zarr/|zarr3:",
         "transform": {
           "matrix": [
             [
@@ -161,13 +159,12 @@
       },
       "volumeRendering": "max",
       "volumeRenderingDepthSamples": 256,
-      "name": "I74_brain_left_hemisphere_VOI-2_2.201um_bm18",
-      "visible": false
+      "name": "Hb1_brain_left_hemisphere_VOI-2_2.201um_bm18"
     },
     {
       "type": "image",
       "source": {
-        "url": "gs://ucl-hoahub-u5y7efds9tyrripr/Harvard_I74/brain-internalCapsule/10.072um_overview_bm05.ome.zarr/|zarr3:",
+        "url": "gs://ucl-hip-ct-35a68e99feaae8932b1d44da0358940b/I74/brain-internalCapsule/10.072um_overview_bm05.ome.zarr/|zarr3:",
         "transform": {
           "matrix": [
             [
@@ -217,104 +214,12 @@
         }
       },
       "volumeRenderingDepthSamples": 256,
-      "name": "I74_brain_internalCapsule_overview_10.072um_bm05"
-    },
-    {
-      "type": "annotation",
-      "source": {
-        "url": "local://annotations",
-        "transform": {
-          "matrix": [
-            [
-              0.14039953548310932,
-              -0.13382940302718802,
-              1.0065435503447786,
-              4301.727903335133
-            ],
-            [
-              -1.0136830112081383,
-              -0.1386750289640636,
-              0.11313775778975094,
-              8526.236799910783
-            ],
-            [
-              0.10741563188968763,
-              -0.9898634437880025,
-              -0.13785724297479396,
-              9128.122753743144
-            ]
-          ],
-          "outputDimensions": {
-            "x": [
-              0.000010072,
-              "m"
-            ],
-            "y": [
-              0.000010072,
-              "m"
-            ],
-            "z": [
-              0.000010072,
-              "m"
-            ]
-          }
-        }
-      },
-      "tab": "source",
-      "annotationColor": "#e9b96e",
-      "annotations": [
-        {
-          "pointA": [
-            2512.77783203125,
-            517.5347900390625,
-            53.24031066894531
-          ],
-          "pointB": [
-            2913.286865234375,
-            918.0437622070312,
-            774.7009887695312
-          ],
-          "type": "axis_aligned_bounding_box",
-          "id": "VOI-1",
-          "description": "VOI-1 (0.857 um)"
-        },
-        {
-          "pointA": [
-            1446.212890625,
-            1089.2958984375,
-            1295.6546630859375
-          ],
-          "pointB": [
-            1848.0845947265625,
-            1491.1676025390625,
-            2216.309326171875
-          ],
-          "type": "axis_aligned_bounding_box",
-          "id": "VOI-2",
-          "description": "VOI-2 (0.857 um)"
-        },
-        {
-          "pointA": [
-            2130.7861328125,
-            1296.5308837890625,
-            798.527587890625
-          ],
-          "pointB": [
-            2532.146240234375,
-            1697.8909912109375,
-            1122.712890625
-          ],
-          "type": "axis_aligned_bounding_box",
-          "id": "VOI-3",
-          "description": "VOI-3 (0.857 um)"
-        }
-      ],
-      "name": "Zoom datasets - chunk"
+      "name": "Hb1_brain_internalCapsule_overview_10.072um_bm05"
     },
     {
       "type": "image",
       "source": {
-        "url": "gs://ucl-hoahub-u5y7efds9tyrripr/Harvard_I74/brain-left_hemisphere/2.201um_VOI-2_bm18.ome.zarr/|zarr3:",
+        "url": "gs://ucl-hip-ct-temp/linc/sub-I74_sample-blockIC1overview_desc-preproc_uCT.ome.zarr/|zarr3:",
         "transform": {
           "matrix": [
             [
@@ -350,27 +255,27 @@
               "m"
             ]
           }
-        },
-        "subsources": {
-          "default": true
-        },
-        "enableDefaultSubsources": false
+        }
       },
-      "tab": "source",
+      "tab": "rendering",
       "annotationColor": "#ff0000",
       "opacity": 1,
-      "shader": "#uicontrol invlerp normalized\nvoid main() {\n  vec4 rgba;\n  rgba[0] = normalized();\n  rgba[1] = normalized();\n  rgba[2] = normalized();\n  rgba[3] = float(normalized() > 0.2);\n  emitRGBA(rgba);\n}",
+      "shader": "#uicontrol invlerp normalized\n#uicontrol float alpha_threshold slider(min=0, max=1)\nvoid main() {\n  vec4 rgba;\n  rgba[0] = normalized();\n  rgba[1] = normalized();\n  rgba[2] = normalized();\n  rgba[3] = float(normalized() > alpha_threshold);\n  emitRGBA(rgba);\n}",
       "shaderControls": {
         "normalized": {
           "range": [
-            14179,
-            35988
+            12899,
+            34058
+          ],
+          "window": [
+            0,
+            42623
           ]
         }
       },
       "crossSectionRenderScale": 0.0625,
       "volumeRendering": "on",
-      "name": "sub-I74_sample-blockIC1overview_desc-preproc_uCT"
+      "name": "sub-Hb1_sample-blockIC1overview_desc-preproc_uCT"
     },
     {
       "type": "image",
@@ -413,25 +318,21 @@
           }
         }
       },
-      "tab": "source",
+      "tab": "rendering",
       "annotationColor": "#00ff00",
       "opacity": 1,
-      "shader": "#uicontrol invlerp normalized\n#uicontrol float alpha_threshold slider(min=0, max=1, default=0, step=0.01)\n\nvoid main() {\n  vec4 rgba;\n  rgba[0] = normalized();\n  rgba[1] = normalized();\n  rgba[2] = normalized();\n  rgba[3] = float(normalized() > alpha_threshold);\n  emitRGBA(rgba);\n}\n",
+      "shader": "#uicontrol invlerp normalized\n#uicontrol float alpha_threshold slider(min=0, max=1)\nvoid main() {\n  vec4 rgba;\n  rgba[0] = normalized();\n  rgba[1] = normalized();\n  rgba[2] = normalized();\n  rgba[3] = float(normalized() > alpha_threshold);\n  emitRGBA(rgba);\n}",
       "shaderControls": {
         "normalized": {
           "range": [
-            28784,
-            9842
-          ],
-          "window": [
-            5069,
-            33557
+            43673,
+            9288
           ]
-        }
+        },
+        "alpha_threshold": 0.3
       },
       "crossSectionRenderScale": 0.0625,
-      "name": "sub-I74_sample-blockIC1trim2_desc-preproc_uCT",
-      "visible": false
+      "name": "sub-Hb1_sample-blockIC1trim2_desc-preproc_uCT"
     },
     {
       "type": "image",
@@ -474,12 +375,11 @@
           }
         }
       },
-      "tab": "annotations",
+      "tab": "rendering",
       "annotationColor": "#0000ff",
       "opacity": 0.88,
       "crossSectionRenderScale": 0.0625,
-      "name": "sub-I74_sample-blockIC1trim9_acq-80kV_desc-preproc_uCT",
-      "visible": false
+      "name": "sub-Hb1_sample-blockIC1trim9_acq-80kV_desc-preproc_uCT"
     },
     {
       "type": "image",
@@ -522,26 +422,47 @@
           }
         }
       },
-      "tab": "source",
+      "tab": "annotations",
       "opacity": 1,
-      "shader": "#uicontrol invlerp normalized\nvoid main() {\n  vec4 rgba;\n  rgba[0] = normalized();\n  rgba[1] = normalized();\n  rgba[2] = normalized();\n  rgba[3] = float(normalized() > 0.2);\n  emitRGBA(rgba);\n}",
+      "shader": "#uicontrol invlerp normalized\n#uicontrol float alpha_threshold slider(min=0, max=1)\nvoid main() {\n  vec4 rgba;\n  rgba[0] = normalized();\n  rgba[1] = normalized();\n  rgba[2] = normalized();\n  rgba[3] = float(normalized() > alpha_threshold);\n  emitRGBA(rgba);\n}",
       "shaderControls": {
         "normalized": {
           "range": [
             14213,
             65535
           ]
-        }
+        },
+        "alpha_threshold": 0.2
       },
       "crossSectionRenderScale": 0.0625,
       "volumeRendering": "on",
-      "name": "sub-I74_sample-blockIC5overview_desc-preproc_uCT.ome.zarr"
+      "name": "sub-Hb1_sample-blockIC5overview_desc-preproc_uCT.ome.zarr"
     },
     {
-      "type": "annotation",
+      "type": "image",
       "source": {
-        "url": "local://annotations",
+        "url": "gs://ucl-hip-ct-35a68e99feaae8932b1d44da0358940b/I74/brain-internalCapsule/0.857um_VOI-1_bm05.ome.zarr/|zarr3:",
         "transform": {
+          "matrix": [
+            [
+              0.144984143,
+              -0.128848519,
+              1.00654355,
+              4635.264737837
+            ],
+            [
+              -1.008226474,
+              -0.173964058,
+              0.113137758,
+              5919.323568954
+            ],
+            [
+              0.141892491,
+              -0.985512241,
+              -0.137857243,
+              8869.001388558
+            ]
+          ],
           "outputDimensions": {
             "x": [
               0.000010072,
@@ -558,255 +479,8 @@
           }
         }
       },
-      "tool": "annotatePoint",
-      "tab": "annotations",
-      "annotationColor": "#ef2929",
-      "annotations": [
-        {
-          "point": [
-            4854.6083984375,
-            5640.8603515625,
-            8611.712890625
-          ],
-          "type": "point",
-          "id": "943a610b1161eb393210d5090a911de29864f40d"
-        },
-        {
-          "point": [
-            4874.6552734375,
-            5635.392578125,
-            8611.712890625
-          ],
-          "type": "point",
-          "id": "d32490ca8180f686aa6e8c810180367a7f0555e4"
-        },
-        {
-          "point": [
-            4951.19873046875,
-            5591.64990234375,
-            8611.712890625
-          ],
-          "type": "point",
-          "id": "56a55c750ed4ea9cf2b5a1901bdfe10198a6222d"
-        },
-        {
-          "point": [
-            4861.8984375,
-            5704.65185546875,
-            8611.712890625
-          ],
-          "type": "point",
-          "id": "75cf539a15940cf7c8e376a20c00ad7544b1aaa2"
-        },
-        {
-          "point": [
-            4887.41259765625,
-            5699.18359375,
-            8611.712890625
-          ],
-          "type": "point",
-          "id": "c99e7ab3f1fb304224abce3e315f6c0999b59d88"
-        },
-        {
-          "point": [
-            4909.2822265625,
-            5680.95751953125,
-            8611.712890625
-          ],
-          "type": "point",
-          "id": "23511a088fe48e89052a694c7c80dd32d97bebc3"
-        },
-        {
-          "point": [
-            4943.9091796875,
-            5697.4755859375,
-            8770.451171875
-          ],
-          "type": "point",
-          "id": "ba9cc2caaf19af3bbf4e509bc84fe3d2dc113600"
-        },
-        {
-          "point": [
-            4965.77880859375,
-            5755.79931640625,
-            8770.451171875
-          ],
-          "type": "point",
-          "id": "a7c67bc3e6c954823dbe074ec94f81a7f85d2580"
-        },
-        {
-          "point": [
-            4994.93798828125,
-            5783.13818359375,
-            8770.451171875
-          ],
-          "type": "point",
-          "id": "7dddfb3faa6ee55b54edf4f4181acf768687c537"
-        },
-        {
-          "point": [
-            5020.45263671875,
-            5823.23583984375,
-            8770.451171875
-          ],
-          "type": "point",
-          "id": "5f74075fc17c7a592abffae9d7e4021dbd4aa4e4"
-        },
-        {
-          "point": [
-            4996.76025390625,
-            5693.83056640625,
-            8770.451171875
-          ],
-          "type": "point",
-          "id": "c698d490cf61fc0e346600724d0ca2b2ec0d835f"
-        },
-        {
-          "point": [
-            4969.42333984375,
-            5675.6044921875,
-            8770.451171875
-          ],
-          "type": "point",
-          "id": "0678e4a6b2dba985620a8bc9505f41637849d26e"
-        },
-        {
-          "point": [
-            5005.87255859375,
-            5788.390625,
-            8838.2001953125
-          ],
-          "type": "point",
-          "id": "4fac395923260a79defaeb45f1bb18dff397d5bd"
-        },
-        {
-          "point": [
-            5011.34033203125,
-            5755.58349609375,
-            8838.2001953125
-          ],
-          "type": "point",
-          "id": "0ad939a6e110778492584aa40214959d2c5532d2"
-        },
-        {
-          "point": [
-            4982.1806640625,
-            5730.0673828125,
-            8838.2001953125
-          ],
-          "type": "point",
-          "id": "57d91adad103dfa95c3f35fadf2c97dc1a6cd508"
-        },
-        {
-          "point": [
-            4963.9560546875,
-            5704.55078125,
-            8838.2001953125
-          ],
-          "type": "point",
-          "id": "4652aa55eb0e4497e1ef5b8a14adb52679e816c7"
-        },
-        {
-          "point": [
-            4996.76025390625,
-            5691.79248046875,
-            8838.2001953125
-          ],
-          "type": "point",
-          "id": "200857e2163de7bfc97933e2147d49d4e7cda17b"
-        },
-        {
-          "point": [
-            5020.45263671875,
-            5680.85693359375,
-            8838.2001953125
-          ],
-          "type": "point",
-          "id": "8f683591008dee2e1f5f495fa5a0b40ab660c9d8"
-        },
-        {
-          "point": [
-            4849.14111328125,
-            5696.36767578125,
-            8472.212890625
-          ],
-          "type": "point",
-          "id": "27699cd72d27cd3a086ce82ef25392cc32dc9912"
-        },
-        {
-          "point": [
-            4878.30029296875,
-            5685.43212890625,
-            8472.212890625
-          ],
-          "type": "point",
-          "id": "6afc9af8ad9b29a1b2de016fb31665346695d474"
-        },
-        {
-          "point": [
-            4925.6845703125,
-            5712.771484375,
-            8472.212890625
-          ],
-          "type": "point",
-          "id": "c58d60c678996f722010adbb85a35146390ef891"
-        },
-        {
-          "point": [
-            4951.19873046875,
-            5608.88232421875,
-            8472.212890625
-          ],
-          "type": "point",
-          "id": "dbc8efd8cc4c72c737b1f7d228c2d83be093d647"
-        },
-        {
-          "point": [
-            4958.48876953125,
-            5769.95263671875,
-            8601.064453125
-          ],
-          "type": "point",
-          "id": "1fd55cf4046bdb1b6df373aac250f4cb726d9955"
-        },
-        {
-          "point": [
-            4920.21728515625,
-            5749.90380859375,
-            8601.064453125
-          ],
-          "type": "point",
-          "id": "e9a5d652009a811f88930d0067b881948afe8942"
-        },
-        {
-          "point": [
-            4980.3583984375,
-            5777.2431640625,
-            8601.064453125
-          ],
-          "type": "point",
-          "id": "4f3b0d0cf3f8f932874d15ba512b4b6e28076fce"
-        },
-        {
-          "point": [
-            4900.169921875,
-            5576.755859375,
-            8601.064453125
-          ],
-          "type": "point",
-          "id": "cd937f2af04ed76901d531795f9d7ea0731e2aa2"
-        },
-        {
-          "point": [
-            4901.9921875,
-            5536.65869140625,
-            8601.064453125
-          ],
-          "type": "point",
-          "id": "cfaa57d2bc722efaf51a04041a95e3d09f3b2aa6"
-        }
-      ],
-      "name": "Axonal bundle of interest"
+      "tab": "source",
+      "name": "Hb1_brain_internalCapsule_VOI-1_0.857um_bm05"
     }
   ],
   "showSlices": false,
@@ -814,22 +488,14 @@
   "systemMemoryLimit": 2000000000000,
   "concurrentDownloads": 1000,
   "selectedLayer": {
-    "size": 910,
-    "visible": true,
-    "layer": "Axonal bundle of interest"
+    "size": 390
   },
-  "layout": "xy",
+  "layout": "4panel-alt",
   "selection": {
     "size": 910,
-    "layers": {
-      "Axonal bundle of interest": {
-        "annotationId": "cfaa57d2bc722efaf51a04041a95e3d09f3b2aa6",
-        "annotationSource": 0,
-        "annotationSubsource": "default"
-      }
-    }
+    "visible": false
   },
   "layerListPanel": {
-    "visible": true
+    "size": 718
   }
 }
