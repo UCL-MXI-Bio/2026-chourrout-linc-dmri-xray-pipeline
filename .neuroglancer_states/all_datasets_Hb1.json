@@ -15,9 +15,9 @@
     ]
   },
   "position": [
-    6785.9453125,
-    5472.90234375,
-    10411.7197265625
+    5517.8408203125,
+    7881.62060546875,
+    9439.5
   ],
   "crossSectionOrientation": [
     -1.4090297951804843e-18,
@@ -25,7 +25,7 @@
     0,
     1
   ],
-  "crossSectionScale": 66.68633104092508,
+  "crossSectionScale": 11.023176380641589,
   "projectionOrientation": [
     0.497188001871109,
     0.6007900238037109,
@@ -104,12 +104,13 @@
       },
       "volumeRendering": "max",
       "volumeRenderingDepthSamples": 256,
-      "name": "Hb1_brain_left_hemisphere_VOI-1_4.257um_bm18"
+      "name": "Hb1_brain_left_hemisphere_VOI-1_4.257um_bm18",
+      "visible": false
     },
     {
       "type": "image",
       "source": {
-        "url": "gs://ucl-hip-ct-35a68e99feaae8932b1d44da0358940b/I74/brain-left_hemisphere/4.257um_VOI-1_bm18.ome.zarr/|zarr3:",
+        "url": "gs://ucl-hip-ct-35a68e99feaae8932b1d44da0358940b/I74/brain-left_hemisphere/2.201um_VOI-2_bm18.ome.zarr/|zarr3:",
         "transform": {
           "matrix": [
             [
@@ -148,11 +149,11 @@
         }
       },
       "tab": "source",
-      "opacity": 0.54,
+      "opacity": 1,
       "shaderControls": {
         "normalized": {
           "range": [
-            6326,
+            6742,
             11069
           ]
         }
@@ -214,7 +215,8 @@
         }
       },
       "volumeRenderingDepthSamples": 256,
-      "name": "Hb1_brain_internalCapsule_overview_10.072um_bm05"
+      "name": "Hb1_brain_internalCapsule_overview_10.072um_bm05",
+      "visible": false
     },
     {
       "type": "image",
@@ -275,7 +277,8 @@
       },
       "crossSectionRenderScale": 0.0625,
       "volumeRendering": "on",
-      "name": "sub-Hb1_sample-blockIC1overview_desc-preproc_uCT"
+      "name": "sub-Hb1_sample-blockIC1overview_desc-preproc_uCT",
+      "visible": false
     },
     {
       "type": "image",
@@ -332,7 +335,8 @@
         "alpha_threshold": 0.3
       },
       "crossSectionRenderScale": 0.0625,
-      "name": "sub-Hb1_sample-blockIC1trim2_desc-preproc_uCT"
+      "name": "sub-Hb1_sample-blockIC1trim2_desc-preproc_uCT",
+      "visible": false
     },
     {
       "type": "image",
@@ -379,7 +383,8 @@
       "annotationColor": "#0000ff",
       "opacity": 0.88,
       "crossSectionRenderScale": 0.0625,
-      "name": "sub-Hb1_sample-blockIC1trim9_acq-80kV_desc-preproc_uCT"
+      "name": "sub-Hb1_sample-blockIC1trim9_acq-80kV_desc-preproc_uCT",
+      "visible": false
     },
     {
       "type": "image",
@@ -436,7 +441,8 @@
       },
       "crossSectionRenderScale": 0.0625,
       "volumeRendering": "on",
-      "name": "sub-Hb1_sample-blockIC5overview_desc-preproc_uCT.ome.zarr"
+      "name": "sub-Hb1_sample-blockIC5overview_desc-preproc_uCT.ome.zarr",
+      "visible": false
     },
     {
       "type": "image",
@@ -480,16 +486,18 @@
         }
       },
       "tab": "source",
-      "name": "Hb1_brain_internalCapsule_VOI-1_0.857um_bm05"
+      "name": "Hb1_brain_internalCapsule_VOI-1_0.857um_bm05",
+      "visible": false
     }
   ],
   "showSlices": false,
-  "gpuMemoryLimit": 1000000000000,
-  "systemMemoryLimit": 2000000000000,
   "concurrentDownloads": 1000,
   "selectedLayer": {
-    "size": 390
+    "size": 390,
+    "visible": true,
+    "layer": "Hb1_brain_left_hemisphere_VOI-2_2.201um_bm18"
   },
+  "crossSectionBackgroundColor": "#000000",
   "layout": "4panel-alt",
   "selection": {
     "size": 910,
