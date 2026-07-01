@@ -2,6 +2,24 @@
 
 Supplementary material for the LINC diffusion MRI – X-ray paper.
 
+## Preprint
+This work is currently available on bioRXiv as a preprint: 
+
+| https://www.biorxiv.org/content/10.64898/2026.04.02.716198 |
+|:-----:|
+| <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.biorxiv.org/content/10.64898/2026.04.02.716198" /> |
+
+
+
+## Gallery
+The data can be opened in the web browser from the LINC Gallery: 
+
+| https://gallery.lincbrain.org/mri-xray |
+|:-----:|
+| <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://gallery.lincbrain.org/mri-xray" /> |
+
+
+
 ## Scripts
 
 This work has required the use of a few Python tools:
