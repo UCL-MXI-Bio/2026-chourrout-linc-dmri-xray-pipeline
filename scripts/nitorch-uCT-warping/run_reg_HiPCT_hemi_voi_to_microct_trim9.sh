@@ -2,7 +2,7 @@
 FIX="microct_trim9_level2.prealigned(inv).nii.gz"
 
 nitorch register \
-        -v 4 \
+        -v 1 \
         -o "reg_HiPCT_uCT/" \
         @loss lcc -p 5 % \
                 @@fix "$FIX" -m "mask_microct_trim9_level2.prealigned(inv).nii.gz" \
