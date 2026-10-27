@@ -1,0 +1,1 @@
+nitorch reslice sub-Hb1_sample-lefthemi_acq-zoom2_desc-crop_XPCT.nii.gz -il sub-Hb1_sample-lefthemi_acq-zoom2_desc-prealign_xfm.lta -o sub-Hb1_sample-lefthemi_acq-zoom2_desc-crop+prealigned_XPCT.nii.gz

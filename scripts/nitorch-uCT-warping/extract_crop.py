@@ -10,4 +10,4 @@ nivol.set_sform(sform, code=1)
 
 nivol_crop = nivol.slicer[coords[0][0]:coords[1][0], coords[0][1]:coords[1][1], coords[0][2]:coords[1][2]]
 
-nivol_crop.to_filename("hemi_voi_crop_level0.nii.gz")
+nivol_crop.to_filename("sub-Hb1_sample-lefthemi_acq-zoom2_desc-crop_XPCT.nii.gz")
