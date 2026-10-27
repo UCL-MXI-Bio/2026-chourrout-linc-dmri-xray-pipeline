@@ -1,6 +1,6 @@
-# sub-Hb1: HiP-CT hemisphere VOI to microCT registration
+# nitorch-uCT-warping
 
-Scripts to extract a volume of interest (VOI) from the HiP-CT left hemisphere scan of sub-Hb1, prealign it, and register it to the microCT scan.
+sub-Hb1: scripts to extract a volume of interest (VOI) from the HiP-CT left hemisphere scan of sub-Hb1, prealign it, and register it to the microCT scan.
 
 Source data: DANDI asset `sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi_acq-zoom2_XPCT.ome.zarr`
 (`https://dandiarchive.s3.amazonaws.com/zarr/0a89ff02-90c4-4d3d-8275-8bc8ee140715/`).

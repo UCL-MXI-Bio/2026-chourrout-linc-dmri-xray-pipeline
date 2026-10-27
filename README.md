@@ -33,3 +33,9 @@ This work has required the use of a few Python tools:
 | [`nitorch`](https://github.com/balbasty/nitorch)                                                           | (Yet another) suite of processing tools for 3D imaging data, initially focused on MRI and the NIfTI file format                      |
 | [`ngtools`](https://github.com/neuroscales/ngtools)                                                        | Web browser-based data viewer with an extensive set of utilities                                                                     |
 | [`tirl`](https://git.fmrib.ox.ac.uk/ihuszar/tirl/)   | Registration library; cf. [doi:10.1016/j.neuroimage.2022.119792](https://www.sciencedirect.com/science/article/pii/S1053811922009132). |
+
+## Pipelines
+
+| Pipeline | Description |
+|----------|-------------|
+| [`nitorch-uCT-warping`](scripts/nitorch-uCT-warping/) | sub-Hb1: crop of the HiP-CT left hemisphere VOI, prealignment and nitorch registration (affine + SVF) to the microCT |
