@@ -9,16 +9,19 @@ This work is currently available on bioRXiv as a preprint:
 |:-----:|
 | <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://www.biorxiv.org/content/10.64898/2026.04.02.716198" /> |
 
-
-
 ## Gallery
-The data can be opened in the web browser from the LINC Gallery: 
+The data can be visualized in the web browser from the LINC Gallery: 
 
 | https://gallery.lincbrain.org/mri-xray |
 |:-----:|
 | <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://gallery.lincbrain.org/mri-xray" /> |
 
+## Data
+The data is published on DANDI as part of the Dandiset 001278: 
 
+| https://dandiarchive.org/dandiset/001278/ |
+|:-----:|
+| <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://dandiarchive.org/dandiset/001278/" /> |
 
 ## Scripts
 
@@ -38,4 +41,4 @@ This work has required the use of a few Python tools:
 
 | Pipeline | Description |
 |----------|-------------|
-| [`nitorch-uCT-warping`](scripts/nitorch-uCT-warping/) | sub-Hb1: crop of the HiP-CT left hemisphere VOI, prealignment and nitorch registration (affine + SVF) to the microCT |
+| [`nitorch-uCT-warping`](scripts/nitorch-uCT-warping/) | Crop of the HiP-CT left hemisphere zoom scan of sub-Hb1, prealignment and nitorch registration (affine + SVF) to the micro-CT |
