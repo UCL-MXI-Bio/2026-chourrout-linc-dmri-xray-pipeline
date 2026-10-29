@@ -1,13 +1,13 @@
 # nitorch-uCT-warping
 
-sub-Hb1: scripts to extract a volume of interest (VOI) from the HiP-CT (XPCT) left hemisphere scan, prealign it, and register it to the microCT (uCT) scan.
+Scripts to extract a volume of interest (VOI) from the HiP-CT (XPCT) left hemisphere scan of sub-Hb1, prealign it, and register it to the micro-CT (uCT) scan.
 
-Source data (DANDI:001278):
+Source data on [DANDI](https://dandiarchive.org/dandiset/001278/):
 
 | Modality | Asset | Zarr |
 |---|---|---|
-| XPCT | `sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi_acq-zoom2_XPCT.ome.zarr` | `https://dandiarchive.s3.amazonaws.com/zarr/0a89ff02-90c4-4d3d-8275-8bc8ee140715/` |
-| uCT | `derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view1_desc-masked_uCT.ome.zarr` | `https://dandiarchive.s3.amazonaws.com/zarr/8a994baf-a833-48ac-bf16-83d997d0a292/` |
+| HiP-CT | `sourcedata/raw/sub-Hb1/micr/sub-Hb1_sample-lefthemi_acq-zoom2_XPCT.ome.zarr` | `https://dandiarchive.s3.amazonaws.com/zarr/0a89ff02-90c4-4d3d-8275-8bc8ee140715/` |
+| Micro-CT | `derivatives/sub-Hb1/micr/sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view1_desc-masked_uCT.ome.zarr` | `https://dandiarchive.s3.amazonaws.com/zarr/8a994baf-a833-48ac-bf16-83d997d0a292/` |
 
 ## Steps
 
