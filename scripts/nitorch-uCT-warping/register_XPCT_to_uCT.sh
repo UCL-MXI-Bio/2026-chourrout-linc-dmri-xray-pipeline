@@ -8,5 +8,5 @@ nitorch register \
                 @@fix "$FIX" -m "sub-Hb1_sample-lefthemi+ICblock+punch1+piece1+trim9_acq-view1_desc-level2+prealigned_mask.nii.gz" \
                 @@mov "sub-Hb1_sample-lefthemi_acq-zoom2_desc-crop+prealigned_XPCT.nii.gz" \
         @affine affine -g \
-        @nonlin svf 100 --voxel-size 200 % -f "$FIX" -p 10 % \
+        @nonlin svf 0.03 --voxel-size 200 % -f "$FIX" -p 10 % \
         @pyramid --levels 0:5
